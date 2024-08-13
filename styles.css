@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://phantom-marca-mx.unidadeditorial.es/873a13ebd7a41de8e191d10723707538/resize/660/f/webp/mx/assets/multimedia/imagenes/2024/07/02/17199473599873.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Texto blanco para contrastar con el fondo */
+}
+
+header {
+    background-color: rgba(229, 9, 20, 0.8); /* Rojo Deadpool con transparencia */
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo negro semitransparente para resaltar el contenido */
+    border-radius: 10px;
+}
+
+#video-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #e50914; /* Borde rojo Deadpool */
+}
+
+#description, #comments {
+    margin-bottom: 20px;
+}
+
+#description h2, #comments h2 {
+    color: #e50914; /* Títulos en rojo Deadpool */
+}
+
+#comments textarea {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #333333; /* Fondo oscuro para el área de texto */
+    color: #ffffff; /* Texto blanco */
+    border: 1px solid #e50914; /* Borde rojo Deadpool */
+}
+
+#comments button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e50914; /* Botón rojo Deadpool */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#comments button:hover {
+    background-color: #bf0610; /* Rojo más oscuro para hover */
+}
+
+footer {
+    background-color: rgba(28, 28, 28, 0.8); /* Negro con transparencia */
+    color: #e50914; /* Texto rojo Deadpool */
+    text-align: center;
+    padding: 10px 0;
+}
